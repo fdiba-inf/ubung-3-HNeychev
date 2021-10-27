@@ -10,9 +10,7 @@ Scanner input = new Scanner(System.in);
     double value ;
 
     do{
-      System.out.println("Enter value: ");
       value = input.nextDouble();
-      System.out.println("Enter type: ");
       type = input.next().charAt(0);
 
       if (type == 'r'){

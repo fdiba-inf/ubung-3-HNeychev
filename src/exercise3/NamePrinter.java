@@ -10,7 +10,7 @@ public class NamePrinter {
       
     for (int index = 0; index < letter.length (); index++){
       char symbol = letter.charAt(index);
-      System.out.println ("*" + symbol + "*");
+      System.out.println ("* " + symbol + " *");
     }
 
     }

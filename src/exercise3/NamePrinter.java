@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class NamePrinter {
 
     public static void main(String[] args) {
-        System.out.println("Enter a word: ");
         Scanner input = new Scanner(System.in);
         String letter = input.nextLine();
       

@@ -14,11 +14,11 @@ Scanner input = new Scanner(System.in);
       type = input.next().charAt(0);
 
       if (type == 'r'){
-        double convertedValue = value / Math.PI * 180;
+        double convertedValue = (value / Math.PI) * 180;
         System.out.println("Angel: " + convertedValue + 'd');
 
       }else if (type == 'r'){
-        double convertedValue = value * Math.PI / 180;
+        double convertedValue = (value * Math.PI) / 180;
         System.out.println("Angle:" + convertedValue + 'r');
       }
     }while(type == 'r' || type == 'd' );
